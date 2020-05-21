@@ -10,3 +10,7 @@ print("Hello,world!")
 #文件首行的注释是一个特殊注释，用来指向python解释器
 #It is begin with "#!".
 #以“#!”开头
+#print() is a function that python provide, we could print any variable via console.
+#print() 是python提供的一个函数，我们可以用它把变量进行命令行输出
+#In this example , we print "Hello,world!" , a simple string.
+#在本案例中，我们打印了一个简单的字符串——“Hello,world!”
