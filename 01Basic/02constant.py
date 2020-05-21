@@ -13,9 +13,22 @@ print(d)
     <class 'str'>"""
 #Last str is a comment using the way we mentioned last time,and it show the console print
 #以上的字符串就是我们上次说的“多行注释”，提供了以上代码的输出
-#We can find that different constants has different type.
+#We can find that different constants has different class.
 #我们能发现，不同的常量有不同的类型
 #type() is a function python provide to get the data type.
 #type() 是python用来展示数据类型的函数
 #we use type(object) can get the object's data tye,and it will return a string
 #我们可以使用type(对象) 来获得数据的表现形式，返回一个字符串
+print(type(-3+2J))
+print(type(1.2+1j))
+"""打印输出(print result)：
+    <class 'complex'>
+    <class 'complex'>"""
+print(type(None))
+"""打印输出(print result)：
+    <class 'NoneType'>"""
+print(type(True))
+print(type(False))
+"""打印输出(print result)：
+    <class 'bool'>
+    <class 'bool'>"""
