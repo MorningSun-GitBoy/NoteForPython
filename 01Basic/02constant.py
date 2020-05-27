@@ -24,11 +24,17 @@ print(type(1.2+1j))
 """打印输出(print result)：
     <class 'complex'>
     <class 'complex'>"""
+#There is complex data type in python,by using "J"or "j" instead of "i".However,we should make some number joint with the char.
+#python中具有复数类型，用“J”“j”表示复数中的“i”，但是要求有数字和它相连
 print(type(None))
 """打印输出(print result)：
     <class 'NoneType'>"""
+#There is a 'NoneType' constant meaning that there isn't any value.
+#None类型代表空
 print(type(True))
 print(type(False))
 """打印输出(print result)：
     <class 'bool'>
     <class 'bool'>"""
+#bool constants are the special constants that represent true or false,only two value
+#bool常量是一种特殊常量，用以标识真、假，只可取true和false两种值
