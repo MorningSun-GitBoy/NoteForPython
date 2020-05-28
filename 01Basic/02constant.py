@@ -24,7 +24,7 @@ print(type(1.2+1j))
 """打印输出(print result)：
     <class 'complex'>
     <class 'complex'>"""
-#There is complex data type in python,by using "J"or "j" instead of "i".However,we should make some number joint with the char.
+#There is complex data type in python,by using "J"or "j" instead of "i".However,we should make some numbers joint with the char.
 #python中具有复数类型，用“J”“j”表示复数中的“i”，但是要求有数字和它相连
 print(type(None))
 """打印输出(print result)：
@@ -38,3 +38,11 @@ print(type(False))
     <class 'bool'>"""
 #bool constants are the special constants that represent true or false,only two value
 #bool常量是一种特殊常量，用以标识真、假，只可取true和false两种值
+#The constants in python are defined by themselves.As long as they fit the style,they will be the right type.
+#python 的常量由常量自己定义，只要符合特定形式，就会成为那种常量
+#You may find that we use a different way to print the data type.That we put type function in the print one means to print the value type() return.
+#可能你已经发现，我们用了与前三个不同的方式打印数据类型。将type()放在print()的括号里，意味着打印type()的返回值
+#The other finding is that we didn't use the first line comment in this file.This is because we can not assure that in different PC using the same python path.
+#而且本文件中我们没写上个文件的首行注释。这是由于我们无法保证任何PC上的python路径都相同。
+#When it runs,you can type "python filename.py".
+#可以输入"python filename.py"来运行文件
