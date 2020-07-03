@@ -46,3 +46,8 @@ a = 2
 b = 5
 c = a ** b
 print(c)
+#Bigger or Smaller
+#Using "> < >= <= == !=" to check if number is bigger or smaller ,if number equals
+#使用"> < >= <= == !="可以比较大小，确认是否相等
+#They will return a boolean value
+#会返回布尔值（True or False）
