@@ -17,20 +17,32 @@ print(c)
 a = 20
 b = 33
 c = a - b
-pritn(c)
+print(c)
 #Multiplication
+#Using asterisk to make multiplication
+#使用星号做乘法
 a = 3
 b = 5
 c = a * b
 print(c)
 #Division
+#Using divisor sign to make division
+#使用除号去做除法
 a = 3.0
 b = 5
 c = a / b
 print(c)
 #Modulo
+#Using persent to make modulo
+#使用百分号做取余操作
 a = 32
 b = 5
 c = a % b
 print(c)
 #Power
+#Using double asterisk to make power
+#使用两个连续的星号做乘方
+a = 2
+b = 5
+c = a ** b
+print(c)
