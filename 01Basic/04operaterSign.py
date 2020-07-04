@@ -51,3 +51,7 @@ print(c)
 #使用"> < >= <= == !="可以比较大小，确认是否相等
 #They will return a boolean value
 #会返回布尔值（True or False）
+print(a>b)
+print(a<=b)
+print(a==b)
+print(a!=b)
