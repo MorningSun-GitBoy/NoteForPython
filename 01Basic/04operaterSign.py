@@ -55,3 +55,25 @@ print(a>b)
 print(a<=b)
 print(a==b)
 print(a!=b)
+#When variables connected by operater signs ,they were called an expression
+#当一连串的变量被操作符连接，我们成这段代码为表达式
+#An expression only has compute operater ,like "+ = * / % **",called compute expression
+#一串只有计算操作符（+ = * / % **）的表达式叫计算表达式
+#An expression has compare operater called judge expression
+#一串只有比较操作符的表达式叫判断表达式
+#Operater sign has the different class ,the higher class will be used ealier
+#操作符有不同的优先级，更高的优先级会更先使用
+#()
+#**
+#~
+#+ -
+#* / %
+#+ -
+#>> <<
+#&
+#^
+#|
+#== != < > <= >=
+#not
+#and
+#or
