@@ -1,3 +1,4 @@
+#If
 #if is the judge key
 #if是判断语句关键字
 a = 7
@@ -14,5 +15,16 @@ if False :
     print(a)
 else :
     print(False)
-#else is another judge key
-#else是另一个关键字
+#else is a key too
+#else也是一个关键字
+#it must write after an if instruction,meaning that when judge expression return False,the code block behind will run
+#else关键字必须在一个if语句后，意味着当判断表达式返回False时else后面的代码开始执行
+if a>b:
+    print(a)
+elif a == 7 :
+    print(a)
+else :
+    print(b)
+#elif is another key, using in if judge key
+#elif也是if判断关键字中的一个关键字
+#Switch
